@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.min.css">
+    <!-- <link rel="stylesheet" href="./css/main.css"> -->
+</head>
+<body>
+    <div  class="box">
+        <div class="box__top"></div>
+       
+        
+        <h1 class="box__title">CARD</h1>
+        <div class="box__image">
+            <img  
+            src="./images/card.png"
+            alt="The picture shows a black card, on the upper right corner of the card with white letters is written Your Bank, at the bottom of the cipher, and in the lower right corner is the inscription MAX MUSTERMANN." 
+            width="400" height="261">
+        </div>
+        <form action="https://echo.htmlacademy.ru/courses" method="POST">
+            <div class="panel">
+                
+                <div class="panel__inner">
+                    <div class="panel__info">
+                        <img src="./images/lock.svg" alt="small picture of lock " width="30" height="30">
+                        <div class="panel__text">
+                            <strong class="panel__title">Lock card</strong>
+                            <p class="panel__subtitle">You can unlock it later</p>
+                        </div>
+                    </div>
+                    <label class="panel__label" title="lock card control panel">
+                        <input 
+                        class="visually-hidden" 
+                        value="the card is opened"
+                        type="checkbox" 
+                        name="user__choice">
+                        <span class="panel__controller"></span>
+                    </label>
+                </div>
+                
+                <div class="panel__inner">
+                    <div class="panel__info">
+                        <img src="./images/plane.svg" alt="small picture of an airplane" width="30" height="30">
+                        <div class="panel__text">
+                            <strong class="panel__title">Payments abroad</strong>
+                            <p class="panel__subtitle">Enable your card abroad</p>
+                        </div>
+                    </div>
+                    <label class="panel__label" title="payments abroad control panel">
+                        <input 
+                        class="visually-hidden"
+                        value="payments abroad were activated" 
+                        type="checkbox" 
+                        name="user__choice">
+                        <span class="panel__controller"></span>
+                    </label>
+                </div>
+                
+                <div class="panel__inner">
+                    <div class="panel__info">
+                        <img src="./images/laptop.svg" alt="small picture of laptop" width="30" height="30">
+                        <div class="panel__text">
+                            <strong class="panel__title">Online payments</strong>
+                            <p class="panel__subtitle">Enable online transactions</p>
+                        </div>
+                    </div>
+                    <label class="panel__label" title="online payments control panel">
+                        <input  
+                        class="visually-hidden"
+                        value="online payments activated" 
+                        type="checkbox"
+                        name="user__choice">
+                        <span class="panel__controller"></span>
+                    </label>
+                </div>
+                
+                <div class="panel__inner">
+                    <div class="panel__info">
+                        <img src="./images/atm.svg" alt="a small square in the center of which is a dollar sign" width="30" height="30">
+                        <div class="panel__text">
+                            <strong class="panel__title">ATM withdrawals</strong>
+                            <p class="panel__subtitle">Enable ATM withdrawals</p>
+                        </div>
+                    </div>
+                    <label class="panel__label" title="ATM withdrawals control panel">
+                        <input 
+                        class="visually-hidden" 
+                        value="the activated ATM withdrawals"
+                        type="checkbox"
+                        name="user__choice">
+                        <span class="panel__controller"></span>
+                    </label>
+                </div>
+                
+                
+            </div>
+            <button class="visually-hidden" type="submit"></button>
+        </form>
+    </div>
+    
+</body>
+</html>
